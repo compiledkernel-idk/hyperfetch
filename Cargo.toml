@@ -1,0 +1,30 @@
+[package]
+name = "hyperfetch"
+version = "1.0.0"
+edition = "2021"
+authors = ["HyperFetch Contributors"]
+description = "A blazingly fast, feature-rich system information tool"
+license = "MIT"
+repository = "https://github.com/hyperfetch/hyperfetch"
+keywords = ["system", "info", "fetch", "neofetch", "fastfetch"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+sysinfo = "0.31"
+colored = "2.1"
+clap = { version = "4.4", features = ["derive"] }
+unicode-width = "0.1"
+battery = "0.7"
+hostname = "0.4"
+whoami = "1.5"
+users = "0.11"
+chrono = "0.4"
+nix = { version = "0.29", features = ["fs", "user"] }
+libc = "0.2"
+lazy_static = "1.4"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
