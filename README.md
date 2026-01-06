@@ -105,7 +105,7 @@ hyperfetch --no-icons
 -V, --version          Print version
 ```
 
-## 🎨 Color Themes
+##  Color Themes
 
 HyperFetch includes several built-in color themes:
 
@@ -116,7 +116,7 @@ HyperFetch includes several built-in color themes:
 - **Catppuccin** - Pastel theme
 - **Monokai** - Classic editor theme
 
-## 🖼️ Supported Logos
+##  Supported Logos
 
 HyperFetch includes 25+ ASCII art logos for popular distros:
 
@@ -130,7 +130,7 @@ HyperFetch includes 25+ ASCII art logos for popular distros:
 
 *ASCII art sourced from the [fastfetch official repository](https://github.com/fastfetch-cli/fastfetch)*
 
-## 📊 System Information Modules
+##  System Information Modules
 
 - **User & Host** - Username and hostname
 - **OS** - Distribution and architecture
@@ -150,7 +150,7 @@ HyperFetch includes 25+ ASCII art logos for popular distros:
 
 
 
-## 🛠️ Development
+##  Development
 
 ### Building from Source
 ```bash
@@ -187,28 +187,25 @@ hyperfetch/
 └── Cargo.toml
 ```
 
-## 📝 License
+##  License
 
 MIT License - see LICENSE file for details
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **ASCII Art** - Logos sourced from [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Inspiration** - neofetch, fastfetch, and the fetch tool community
 
-## 🤝 Contributing
+
+##  Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
 - Suggest features
 - Submit pull requests
 
-## 📬 Contact
+##  Contact
 
-- GitHub Issues: [Report a bug or request a feature](https://github.com/yourusername/hyperfetch/issues)
+- GitHub Issues: [Report a bug or request a feature](https://github.com/compiledkernel-idk/hyperfetch/issues)
 
 ---
 
-<div align="center">
-Made with ❤️ and 🦀 Rust
-</div>
